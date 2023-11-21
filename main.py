@@ -108,6 +108,10 @@ class RoleSelectionView(discord.ui.View):
             discord.SelectOption(
                 label = "ITF22e",
                 description = "Schüler der Klasse ITF22e"
+            ),
+            discord.SelectOption(
+                label = "ITF23d",
+                description = "Schüler der Klasse ITF22d"
             )
         ]
     , custom_id="role_selection_itf")
